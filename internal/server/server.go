@@ -47,5 +47,4 @@ func Run() error {
 	app.Get("/stream/:suuid/viewer/websocket", websocket.New(handlers.StreamViewerWebsocket))
 	app.Static("/", "./assets")
 
-	
 }
