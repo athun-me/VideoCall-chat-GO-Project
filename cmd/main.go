@@ -7,12 +7,7 @@ import (
 )
 
 func main() {
-	if err := server.Run(); err != nil{
+	if err := server.Run(); err != nil {
 		log.Fatalln(err.Error())
 	}
-}
-
-
-func main(){
-	if err
 }
